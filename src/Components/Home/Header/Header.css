@@ -1,0 +1,20 @@
+.header-container{
+    background-color: #FBD062;
+    background-size: cover;
+    -webkit-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.header-container::after{
+    content: "";
+    width: 300%;
+    height: 0;
+    padding-top: 200%;
+    border-radius: 40%;
+    background: #ffffff;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translateX(-25%);
+}
